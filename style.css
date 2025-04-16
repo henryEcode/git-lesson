@@ -18,5 +18,14 @@ body {
 li{ display: inline-block;
     list-style-type: none;
     padding: 0;
-    margin: 3rem;
+    margin:0 3rem;
+}
+
+p{
+    margin-left: 1rem ;}
+
+    p:hover {text-decoration: underline;}
+p::first-letter{
+    font-weight: bold;
+    color: blue;
 }
